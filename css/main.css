@@ -112,6 +112,11 @@ footer {
     text-decoration: none;
   }
 
+  nav ul li a:hover {
+    color: #ffe873;
+    text-decoration: none;
+  }
+
   nav ul li {
     display: inline;
     text-align: center;
