@@ -77,14 +77,11 @@ h1 {
 .testimonial {
   background-color: #ffe873;
   padding: 2%;
+  margin: 2% 0;
 }
 
-.testimonials h1 {
+.testimonials-section h1 {
   margin-top: 5%;
-}
-
-.two, .three {
-  border-top: 2px solid black;
 }
 
 .about-h1 {
@@ -159,6 +156,10 @@ footer {
 
 @media (min-width: 600px) {
 
+  nav ul {
+    padding: 2%;
+  }
+
   nav ul li a {
     color: white;
     text-decoration: none;
@@ -178,6 +179,15 @@ footer {
   nav {
     text-align: center;
     background-color: #3b9bfd;
+  }
+
+  .testimonial {
+    padding: 1%;
+  }
+
+  .testimonials {
+    display: flex;
+    margin: 1%;
   }
 
   footer {
