@@ -47,18 +47,17 @@ h1 {
 
 .four-boxes {
   text-align: center;
-  background-color: #3b9bfd;
   margin-top: 2%;
   padding: 2%;
 }
 
 .four-boxes a {
-  color: white;
+  color: #2a2a6a;
 }
 
 .four-boxes a:hover {
   text-decoration: none;
-  color: #2a2a6a;
+  color: #3b9bfd;
 }
 
 .recent-events {
@@ -75,8 +74,17 @@ h1 {
   padding-left: 5%;
 }
 
+.testimonial {
+  background-color: #ffe873;
+  padding: 2%;
+}
+
 .testimonials h1 {
-  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.two, .three {
+  border-top: 2px solid black;
 }
 
 .about-h1 {
