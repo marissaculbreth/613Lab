@@ -129,8 +129,7 @@ footer {
 
 .address {
   color: white;
-  margin: 5%;
-  margin-bottom: 2%;
+  margin: 5% 2%;;
   padding: 2%;
   font-size: 0.8rem;
 }
@@ -141,15 +140,17 @@ footer {
 }
 
 .fbicon {
-  width: 40px;
-  height: 40px;
-  margin: 5% 2%;
+  width: 30px;
+  height: 30px;
 }
 
 .linkedinicon {
-  width: 50px;
-  height: 50px;
-  margin: 5% 2%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-links {
+  margin-top: 5%;
 }
 
 
@@ -184,21 +185,31 @@ footer {
   }
 
   .footerlogo {
-    width: 150px;
-    height: 75px;
-    margin: 50%;
+    width: 125px;
+    height: 60px;
+    margin-top: 50%;
     padding: 2%;
-    margin-left: 70%;
+    margin-left: 50%;
   }
 
   .address {
-    font-size: 0.4rem;
+    font-size: 0.7rem;
+    margin-top: 9%;
+  }
+
+  .fbicon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .linkedinicon {
+    width: 40px;
+    height: 40px;
   }
 
   .social-media-links {
-    float: right;
-    margin-left: 40%;
-    margin-top: 5%;
-    margin-right: 5%;
+    margin-left: 25%;
+    margin-top: 12%;
+    display: inline-block;
   }
 }
