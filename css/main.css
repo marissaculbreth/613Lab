@@ -15,6 +15,10 @@ header {
   margin: 2%;
 }
 
+.cta-button {
+  display: none;
+}
+
 nav ul li {
   display: none;
 }
@@ -155,6 +159,21 @@ footer {
 /* Media queries */
 
 @media (min-width: 600px) {
+
+  .cta-button {
+    display: block;
+    float: right;
+    margin-top: 5%;
+  }
+
+  .cta-button a {
+    color: #2a2a6a;
+  }
+
+  .cta-button a:hover {
+    color: white;
+    text-decoration: none;
+  }
 
   nav ul {
     padding: 2%;
