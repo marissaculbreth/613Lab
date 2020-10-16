@@ -36,6 +36,18 @@ h1 {
 
 .four-boxes {
   text-align: center;
+  background-color: #3b9bfd;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.four-boxes a {
+  color: white;
+}
+
+.four-boxes a:hover {
+  text-decoration: none;
+  color: #2a2a6a;
 }
 
 .recent-events {
