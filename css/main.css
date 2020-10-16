@@ -68,6 +68,19 @@ h1 {
   margin-left: 5%;
 }
 
+.about-h1 {
+  text-align: center;
+}
+
+.team-members {
+  background-color: #ffe873;
+  padding: 2%;
+}
+
+.mentors {
+  margin: 2%;
+}
+
 
 
 /* Footer */
