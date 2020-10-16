@@ -15,26 +15,45 @@ header {
   margin: 2%;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
 nav ul li {
-  display: inline;
-  text-align: center;
-  margin: 5%;
-}
-
-nav {
-  text-align: center;
-  background-color: #3b9bfd;
+  display: none;
 }
 
 
 /* Universal Styling */
 h1 {
   font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #252525;
+}
+
+.btn-secondary:hover {
+  background-color: #2a2a6a;
+}
+
+.four-boxes {
+  text-align: center;
+}
+
+.recent-events {
+  background-color: #2a2a6a;
+}
+
+.recent-events h1 {
+  text-align: center;
+  color: white;
+}
+
+.recent-events ul li {
+  color: white;
+  padding-left: 5%;
+}
+
+.testimonials h1 {
+  margin-left: 5%;
 }
 
 
@@ -74,6 +93,22 @@ footer {
 /* Media queries */
 
 @media (min-width: 600px) {
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 5%;
+  }
+
+  nav {
+    text-align: center;
+    background-color: #3b9bfd;
+  }
 
   footer {
     display: flex;
