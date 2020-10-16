@@ -26,6 +26,17 @@ h1 {
   font-size: 1.5rem;
 }
 
+.btn-primary {
+  background-color: #ffe873;
+  color: #2a2a6a;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3b9bfd;
+  color: white;
+}
+
 .btn-secondary {
   background-color: #252525;
 }
@@ -81,7 +92,26 @@ h1 {
   margin: 2%;
 }
 
+/* Contact Form */
+.contact-form {
+  border: 2px solid #2a2a6a;
+  padding: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+  text-align: center;
+}
 
+#name, #phone, #email {
+  border: 2px solid #2a2a6a;
+}
+
+#message {
+  border: 2px solid #2a2a6a;
+}
+
+input {
+  margin-bottom: 5%;
+}
 
 /* Footer */
 footer {
