@@ -30,3 +30,9 @@ nav {
   text-align: center;
   background-color: #3b9bfd;
 }
+
+
+/* Universal Styling */
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
