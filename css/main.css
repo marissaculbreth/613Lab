@@ -34,7 +34,7 @@ nav ul li {
 /* Universal Styling */
 h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 a {
@@ -64,6 +64,7 @@ a:hover {
 .btn-secondary:hover {
   background-color: #2a2a6a;
 }
+
 
 /* Home page */
 
@@ -97,6 +98,7 @@ a:hover {
   margin-top: 5%;
 }
 
+
 /* About page */
 .about-h1 {
   text-align: center;
@@ -109,10 +111,19 @@ a:hover {
 
 .mentors {
   margin: 2%;
+  text-align: center;
 }
 
 .mentor-profiles {
-  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mentor-profiles p {
+  font-size: 0.75rem;
+  margin: auto;
+  width: 55%;
 }
 
 .mentor-img {
@@ -121,10 +132,6 @@ a:hover {
   padding: 3%;
 }
 
-.mentors p {
-  width: 30%;
-  margin: auto;
-}
 
 /* Apply page */
 .apply-now {
@@ -137,6 +144,7 @@ a:hover {
 .apply-h1 {
   text-align: center;
 }
+
 
 /* Contact Form */
 .contact-form {
@@ -166,6 +174,7 @@ div.apply-link {
   margin-bottom: 3%;
 }
 
+
 /* Footer */
 footer {
   background-color: #2a2a6a;
@@ -179,8 +188,8 @@ footer {
 }
 
 .footerlogo {
-  width: 150px;
-  height: 75px;
+  width: 125px;
+  height: 50px;
 }
 
 .fbicon {
@@ -224,7 +233,7 @@ footer {
   }
 
   .header-img {
-    margin-top: -2.5%;
+    margin-top: -2.6%;
   }
 
   nav ul {
@@ -263,14 +272,6 @@ footer {
 
   #name, #phone, #email, #message {
     width: 50%;
-  }
-
-  .members-section {
-    display: flex;
-  }
-
-  .member {
-    margin: 4%;
   }
 
   .contact-form {
