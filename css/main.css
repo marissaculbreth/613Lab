@@ -89,6 +89,7 @@ a:hover {
   margin-top: 5%;
 }
 
+/* About page */
 .about-h1 {
   text-align: center;
 }
@@ -100,6 +101,21 @@ a:hover {
 
 .mentors {
   margin: 2%;
+}
+
+.mentor-profiles {
+  text-align: center;
+}
+
+.mentor-img {
+  width: 150px;
+  height: 150px;
+  padding: 3%;
+}
+
+.mentors p {
+  width: 30%;
+  margin: auto;
 }
 
 /* Apply page */
