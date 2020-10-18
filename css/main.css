@@ -205,7 +205,7 @@ footer {
 
   .testimonials {
     display: flex;
-    margin: 1%;
+    width: 100%;
   }
 
   footer {
