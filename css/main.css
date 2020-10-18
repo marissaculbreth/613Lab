@@ -10,10 +10,9 @@ header {
 }
 
 .logo {
-  width: 225px;
-  height: 100px;
+  width: 200px;
+  height: 75px;
   margin: 2%;
-  padding: 2%;
 }
 
 .cta-button {
@@ -311,7 +310,6 @@ footer {
   .logo {
     width: 250px;
     height: 100px;
-    padding: 1.5%;
   }
 
   .footerlogo {
@@ -328,9 +326,8 @@ footer {
 
 @media (min-width: 950px) {
   .logo {
-    width: 275px;
-    height: 150px;
-    padding: 1.5%;
+    width: 225px;
+    height: 100px;
   }
 
   .address {
