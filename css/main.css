@@ -126,6 +126,10 @@ a:hover {
   text-align: center;
 }
 
+.apply-h1 {
+  text-align: center;
+}
+
 /* Contact Form */
 .contact-form {
   border: 2px solid #2a2a6a;
@@ -194,7 +198,6 @@ footer {
 /* Media queries */
 
 @media (min-width: 600px) {
-
   h1 {
     font-size: 2rem;
   }
@@ -211,7 +214,7 @@ footer {
   }
 
   nav ul {
-    padding: 2%;
+    padding: 1.5%;
   }
 
   nav ul li a {
@@ -261,6 +264,10 @@ footer {
     font-size: 1.25rem;
   }
 
+  .apply-now {
+    padding: 1.5%;
+  }
+
   footer {
     display: flex;
   }
@@ -288,5 +295,23 @@ footer {
 
   .social-media-links {
     margin-top: 4%;
+  }
+}
+
+
+@media (min-width: 850px) {
+  .logo {
+    width: 250px;
+    height: 100px;
+    padding: 1.5%;
+  }
+}
+
+
+@media (min-width: 950px) {
+  .logo {
+    width: 300px;
+    height: 125px;
+    padding: 1.5%;
   }
 }
