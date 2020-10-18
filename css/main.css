@@ -265,6 +265,14 @@ footer {
     width: 50%;
   }
 
+  .members-section {
+    display: flex;
+  }
+
+  .member {
+    margin: 4%;
+  }
+
   .contact-form {
     text-align: left;
   }
