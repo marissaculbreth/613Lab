@@ -10,9 +10,10 @@ header {
 }
 
 .logo {
-  width: 300px;
+  width: 250px;
   height: 100px;
   margin: 2%;
+  padding: 2%;
 }
 
 .cta-button {
@@ -28,6 +29,15 @@ nav ul li {
 h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
+}
+
+a {
+  color: #2a2a6a;
+}
+
+a:hover {
+  color: #3b9bfd;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -53,15 +63,6 @@ h1 {
   text-align: center;
   margin-top: 2%;
   padding: 2%;
-}
-
-.four-boxes a {
-  color: #2a2a6a;
-}
-
-.four-boxes a:hover {
-  text-decoration: none;
-  color: #3b9bfd;
 }
 
 .recent-events {
@@ -105,21 +106,32 @@ h1 {
 .contact-form {
   border: 2px solid #2a2a6a;
   padding: 2%;
-  margin-bottom: 2%;
-  width: 50%;
   text-align: center;
+  margin: auto;
+  width: 75%;
+  margin-bottom: 3%;
 }
 
-#name, #phone, #email {
+#name, #phone, #email, #message {
   border: 2px solid #2a2a6a;
+  width: 75%;
 }
 
 #message {
-  border: 2px solid #2a2a6a;
+  height: 200px;
 }
 
-input {
+input#name, input#phone, input#email {
   margin-bottom: 5%;
+}
+
+button.submit {
+  margin-bottom: 3%;
+}
+
+div.apply-link {
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 /* Footer */
@@ -135,8 +147,8 @@ footer {
 }
 
 .footerlogo {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 75px;
 }
 
 .fbicon {
@@ -159,14 +171,14 @@ footer {
 
 @media (min-width: 600px) {
 
+  h1 {
+    font-size: 2rem;
+  }
+
   .cta-button {
     display: block;
     float: right;
     margin-top: 5%;
-  }
-
-  .cta-button a {
-    color: #2a2a6a;
   }
 
   .cta-button a:hover {
@@ -206,6 +218,23 @@ footer {
   .testimonials {
     display: flex;
     width: 100%;
+  }
+
+  #name, #phone, #email, #message {
+    width: 50%;
+  }
+
+  .contact-form {
+    text-align: left;
+  }
+
+  button.btn.btn-primary.submit {
+    margin: auto;
+    text-align: center;
+  }
+
+  .apply-link {
+    font-size: 1.25rem;
   }
 
   footer {
