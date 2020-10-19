@@ -90,8 +90,9 @@ a:hover {
 
 .testimonial {
   background-color: #ffe873;
-  padding: 2%;
+  padding: 1%;
   margin: 2% 0;
+  width: 100%;
 }
 
 .testimonials-section h1 {
@@ -293,6 +294,7 @@ footer {
 
   footer {
     display: flex;
+    padding: 4%;
   }
 
   .footerlogo {
@@ -336,6 +338,10 @@ footer {
 
   .header-img {
     margin-top: -2%;
+  }
+
+  footer {
+    padding: 2%;
   }
 }
 
