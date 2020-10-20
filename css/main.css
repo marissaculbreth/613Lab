@@ -52,6 +52,10 @@ a:hover {
   border: none;
 }
 
+.btn-primary a {
+  color: #2a2a6a;
+}
+
 .btn-primary:hover {
   background-color: #3b9bfd;
   color: white;
