@@ -38,11 +38,11 @@ h1 {
 }
 
 a {
-  color: #2a2a6a;
+  color: #3b9bfd;
 }
 
 a:hover {
-  color: #3b9bfd;
+  color: #2a2a6a;
   text-decoration: none;
 }
 
