@@ -145,10 +145,15 @@ h1.home-header {
   width: 55%;
 }
 
-.mentor-img {
+.mentor-img, .member-img {
   width: 150px;
   height: 150px;
   padding: 3%;
+}
+
+img.member-img {
+  margin: auto;
+  text-align: center;
 }
 
 
@@ -295,6 +300,16 @@ footer {
   .testimonials {
     display: flex;
     width: 100%;
+  }
+
+  .members-section {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+  }
+
+  .member {
+    width: 47%;
   }
 
   #name, #phone, #email, #message {
