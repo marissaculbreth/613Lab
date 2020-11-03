@@ -475,6 +475,10 @@ footer {
     font-size: 1.25rem;
   }
 
+  .member-img:hover {
+    width: 55%;
+  }
+
   .mentor-img:hover {
     width: 200px;
     height: 200px;
