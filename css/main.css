@@ -395,7 +395,7 @@ footer {
     width: 75%;
   }
 
-  .about-btn button {
+  .about-btn button, .services-btn button {
     font-size: 1.025rem;
     padding: 2.5%;
   }
@@ -484,7 +484,7 @@ footer {
     height: 200px;
   }
 
-  .about-btn button {
+  .about-btn button, .services-btn button {
     font-size: 1.25rem;
     padding: 1.75%;
   }
