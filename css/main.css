@@ -288,7 +288,7 @@ footer {
   }
 
   nav ul {
-    padding: 1.5%;
+    padding: 1.75%;
   }
 
   nav ul li a {
@@ -436,6 +436,14 @@ footer {
 
 
 @media (min-width: 950px) {
+  nav ul {
+    padding: 1.025%;
+  }
+
+  nav ul li {
+    font-size: 1.25rem;
+  }
+
   iframe {
     margin-top: -1.5%;
   }
