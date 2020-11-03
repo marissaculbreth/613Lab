@@ -169,6 +169,22 @@ h2 {
   font-size: 1.2rem;
 }
 
+div.services:hover {
+  padding: 2%;
+  background-color: #2a2a6a;
+  color: white;
+}
+
+.services-btn {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.services-btn button:hover {
+  padding: 2%;
+  font-size: 1.25rem;
+}
+
 
 /* Apply page */
 .apply-now {
