@@ -510,6 +510,16 @@ footer {
     margin-top: -1.5%;
   }
 
+  .mentor-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .mentor-img:hover {
+    width: 250px;
+    height: 250px;
+  }
+
   .address {
     font-size: 0.9rem;
   }
