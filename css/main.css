@@ -198,6 +198,11 @@ div.services:hover {
   text-align: center;
 }
 
+div.apply-btn button:hover {
+  background-color: #2a2a6a;
+  border: 1px solid #ffe873;
+}
+
 
 /* Contact Form */
 .contact-form {
