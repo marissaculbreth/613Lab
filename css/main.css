@@ -475,6 +475,11 @@ footer {
     font-size: 1.25rem;
   }
 
+  .mentor-img:hover {
+    width: 200px;
+    height: 200px;
+  }
+
   .about-btn button {
     font-size: 1.25rem;
     padding: 1.75%;
