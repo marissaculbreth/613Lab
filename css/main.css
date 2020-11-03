@@ -157,7 +157,15 @@ h1.home-header {
   width: 55%;
 }
 
-.mentor-img, .member-img {
+.member-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  padding: 3%;
+}
+
+.mentor-img {
   width: 150px;
   height: 150px;
   padding: 3%;
@@ -166,6 +174,14 @@ h1.home-header {
 .about-btn {
   text-align: center;
   margin-top: 3%;
+}
+
+.about-btn button {
+  padding: 3%;
+}
+
+button.btn.btn-primary:hover {
+  color: white;
 }
 
 
@@ -367,6 +383,23 @@ footer {
     width: 47%;
   }
 
+  .member-img {
+    width: 50%;
+  }
+
+  .mentor-profiles div {
+    width: 25%;
+  }
+
+  .mentor-profiles p {
+    width: 75%;
+  }
+
+  .about-btn button {
+    font-size: 1.025rem;
+    padding: 2.5%;
+  }
+
   #name, #phone, #email, #message {
     width: 50%;
   }
@@ -440,6 +473,11 @@ footer {
 
   .home-blurb {
     font-size: 1.25rem;
+  }
+
+  .about-btn button {
+    font-size: 1.25rem;
+    padding: 1.75%;
   }
 
   .footerlogo {
