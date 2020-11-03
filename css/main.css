@@ -163,6 +163,11 @@ h1.home-header {
   padding: 3%;
 }
 
+.about-btn {
+  text-align: center;
+  margin-top: 3%;
+}
+
 
 /* Services page */
 h2 {
@@ -178,11 +183,6 @@ div.services:hover {
 .services-btn {
   text-align: center;
   margin-top: 3%;
-}
-
-.services-btn button:hover {
-  padding: 2%;
-  font-size: 1.25rem;
 }
 
 
