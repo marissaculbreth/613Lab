@@ -459,6 +459,11 @@ footer {
     height: 125px;
   }
 
+  .cta-button button {
+    padding: 4%;
+    font-size: 1.25rem;
+  }
+
   iframe {
     margin-top: -2.5%;
   }
