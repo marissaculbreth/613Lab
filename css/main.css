@@ -143,9 +143,12 @@ h1.home-header {
 }
 
 .mentor-profiles {
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+.mentor-profiles div {
+  width: 50%;
 }
 
 .mentor-profiles p {
@@ -158,11 +161,6 @@ h1.home-header {
   width: 150px;
   height: 150px;
   padding: 3%;
-}
-
-img.member-img {
-  margin: auto;
-  text-align: center;
 }
 
 
