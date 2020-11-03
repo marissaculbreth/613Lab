@@ -122,6 +122,13 @@ h1.home-header {
   width: 100%;
 }
 
+
+.testimonials-carousel {
+  background-color: #ffe873;
+  padding: 2% 4%;
+  width: 100%;
+}
+
 .testimonials-section h1 {
   margin-top: 5%;
 }
