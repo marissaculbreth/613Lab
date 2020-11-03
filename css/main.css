@@ -504,6 +504,7 @@ footer {
 @media (min-width: 950px) {
   nav ul {
     padding: 1.025%;
+    padding-bottom: 1.75%;
   }
 
   nav ul li {
