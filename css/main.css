@@ -130,12 +130,11 @@ a:hover {
   opacity: 0;
   transition: all 0.3s;
 }
-ul{
+.menu ul{
   list-style-type: none;
 }
-a{
+.menu a{
   text-decoration: none;
-  pointer-events:none;
   color: #3b9bfd;
 }
 
@@ -157,9 +156,7 @@ a{
   opacity: 1;
   padding: 2% 0;
 }
-.clicked a{
-  pointer-events:auto;
-}
+
 
 
 
@@ -481,6 +478,10 @@ footer {
 
   .header-img {
     margin-top: -2.6%;
+  }
+
+  nav {
+    display: block;
   }
 
   nav ul {
