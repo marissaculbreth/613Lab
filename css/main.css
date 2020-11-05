@@ -449,6 +449,10 @@ footer {
     display: none;
   }
 
+  .menu_wrapper {
+    display: none;
+  }
+
   h1 {
     font-size: 2rem;
   }
