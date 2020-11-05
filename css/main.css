@@ -180,13 +180,49 @@ h1.home-header {
 
 .btn-homepage {
   text-align: center;
+  padding-bottom: 10%;
+}
+
+.block {
+  margin: auto;
+  margin-bottom: 4%;
+  width: 55%;
+  padding: 20%;
+  text-align: center;
+}
+
+.about-block {
+  background-color: #3b9bfd;
+  background-image: url('../images/about.jpg');
+  background-size: cover;
+}
+
+.services-block {
+  background-color: #3b9bfd;
+  background-image: url('../images/services.jpg');
+  background-size: cover;
+}
+
+.apply-block {
+  background-color: #3b9bfd;
+  background-image: url('../images/apply.jpg');
+  background-size: cover;
+}
+
+.contact-block {
+  background-color: #3b9bfd;
+  background-image: url('../images/contact.jpg');
+  background-size: cover;
+}
+
+.block h1 a {
+  color: white;
 }
 
 .four-boxes {
   text-align: center;
   margin-top: 2%;
   padding: 2%;
-  background-color: #3b9bfd;
 }
 
 .four-boxes a {
