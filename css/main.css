@@ -422,6 +422,25 @@ footer {
 
 
 /* Media queries */
+@media (min-width: 575px) {
+  .block {
+    margin: 3%;
+    margin-bottom: 2%;
+    width: 55%;
+    padding: 11%;
+    text-align: center;
+  }
+
+  .block-group {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .btn-homepage {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+}
 
 @media (min-width: 600px) {
   .logo {
