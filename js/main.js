@@ -4,7 +4,7 @@ ham.addEventListener('click', function() {
   menu_wrapper.classList.toggle('clicked');
 });
 
-// Page Transition Code
+// Page Transition Code https://blog.adam-marsden.co.uk/minimal-page-transitions-with-jquery-css-d97f692d5292 
 $(function() {
 
   $('a').each(function() { /* [1] */
