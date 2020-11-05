@@ -138,7 +138,6 @@ a:hover {
   color: #3b9bfd;
 }
 
-
 .clicked .ham_line1 {
 	transform: rotate(45deg);
 	top: 20px;
@@ -173,6 +172,11 @@ h1.home-header {
   text-align: center;
   padding: 5%;
   margin-top: -1.5%;
+  font-size: 2.3rem;
+}
+
+p.home-paragraph {
+  padding: 4% 4% 0 4%;
 }
 
 .btn-homepage {
@@ -254,7 +258,7 @@ h1.home-header {
 
 .testimonials-carousel {
   background-color: #ffe873;
-  padding: 4% 4%;
+  padding: 4% 4% 10% 4%;
   width: 100%;
 }
 
@@ -453,6 +457,11 @@ footer {
     display: none;
   }
 
+
+  p.home-paragraph {
+    padding: 2% 4% 0 4%;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -631,6 +640,12 @@ footer {
     justify-content: center;
   }
 
+  h1.home-header {
+    padding: 5%;
+    margin-top: -1.5%;
+    font-size: 2.3rem;
+  }
+
   .btn-homepage {
     text-align: center;
     padding-bottom: 3%;
@@ -697,6 +712,15 @@ footer {
 
   nav ul li {
     font-size: 1.25rem;
+  }
+
+  h1.home-header {
+    padding: 4% 0 3% 0;
+    font-size: 2.5rem;
+  }
+
+  p.home-paragraph {
+    padding: 2% 13% 0 13%;
   }
 
   iframe {
