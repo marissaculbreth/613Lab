@@ -441,6 +441,12 @@ footer {
     text-align: center;
     padding-bottom: 5%;
   }
+
+  .testimonials-carousel {
+    background-color: #ffe873;
+    padding: 4% 4% 5% 4%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -721,6 +727,12 @@ footer {
 
   p.home-paragraph {
     padding: 2% 13% 0 13%;
+  }
+
+  .testimonials-carousel {
+    background-color: #ffe873;
+    padding: 4% 4% 3% 4%;
+    width: 100%;
   }
 
   iframe {
