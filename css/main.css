@@ -612,6 +612,26 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  .block {
+    margin: 1%;
+    margin-bottom: 2%;
+    width: 17%;
+    padding: 5% 0%;
+    text-align: center;
+  }
+
+  .block-group {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .btn-homepage {
+    text-align: center;
+    padding-bottom: 3%;
+  }  
+}
+
 
 @media (min-width: 850px) {
   .logo {
