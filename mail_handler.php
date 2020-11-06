@@ -1,4 +1,22 @@
-<!DOCTYPE html>
+<?php 
+if(isset($_POST['submit'])){
+    $to = "mcgerver@optonline.net"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $phonenumber = "Phone:" . $_POST['phone'];
+    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    ?>
+    <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -55,18 +73,12 @@
       <img class="header-img" src="images/contactimg.jpg" alt="contact header image" />
       <div class="col-sm-12">
         <h1>Contact Us</h1>
-        <p>If you’re ready to <a href="apply.html">apply to 613 Lab</a> or have any questions about the program, we are happy to answer them and provide you with the information you need. Please fill out the form below and someone from our team will contact you within 48 hours.</p>
-        <form class="contact-form" action="mail_handler.php" method="post">
-          <label for="name">Your Name</label><br />
-            <input type="text" id="name" name="name"><br />
-          <label for="phone">Phone Number</label><br />
-            <input type="text" id="phone" name="phone"><br />
-          <label for="email">Email</label><br />
-            <input type="text" id="email" name="email"><br />
-          <label for="message">Your Message</label><br />
-            <input type="text" id="message" name="message"><br /><br />
-          <input class="btn btn-primary submit" type="submit" name="submit" value="Submit"></input>
-        </form>
+        <?php 
+            echo "Thank you for your submission, " . $name . ", we will contact you shortly.";
+            //('Location: thank_you.html'); //to redirect to another page.
+            // You cannot use header and echo together. It's one or the other.
+            }
+        ?>
         <div class="apply-link">
           <a class="apply-link" href="apply.html">Go to Application Page >></a>
         </div>
