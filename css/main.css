@@ -609,12 +609,26 @@ footer {
     padding: 2.5%;
   }
 
-  #phone, #email {
-    width: 50%;
+  input#name {
+    width: 66%;
   }
 
-  .contact-form {
-    width: 70%;
+  input#phone {
+    width: 110%;
+    margin-right: 2%;
+  }
+
+  input#email {
+    width: 35%;
+    margin-left: 5%;
+  }
+
+  #emaillabel {
+    margin-left: 5%;
+  }
+
+  div.number {
+    float: left;
   }
 
   .apply-link {
@@ -773,7 +787,7 @@ footer {
   }
 
   .contact-form {
-    width: 60%;
+    width: 50%;
   }
 
   .address {
