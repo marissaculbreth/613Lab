@@ -244,20 +244,6 @@ p.home-paragraph {
   color: white;
 }
 
-.recent-events {
-  background-color: #2a2a6a;
-}
-
-.recent-events h1 {
-  text-align: center;
-  color: white;
-}
-
-.recent-events ul li {
-  color: white;
-  padding-left: 5%;
-}
-
 .testimonials-carousel {
   background-color: #ffe873;
   padding: 4% 4% 10% 4%;
