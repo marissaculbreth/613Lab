@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      
+
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -63,7 +63,16 @@
             <input type="text" id="phone" name="phone"><br />
           <label for="email">Email</label><br />
             <input type="text" id="email" name="email"><br />
-          <label for="message">Your Message</label><br />
+          <label for="method-of-contact">Preferred Method of Contact</label><br />
+            <input type="radio"> Phone</input><br />
+            <input type="radio" id="method"> Email</input><br />
+          <label for="reasons">Reason(s) for Reaching Out:<br />
+            <input type="checkbox" id="checkbox" name="reason1" value="reason1"> I want to learn more about joining the business accelerator program</input><br />
+            <input type="checkbox" id="checkbox" name="reason2" value="reason2"> I have a question about the program application</input><br />
+            <input type="checkbox" id="checkbox" name="reason3" value="reason3"> I want to learn more about becoming a mentor or advisor</input><br />
+            <input type="checkbox" id="checkbox" name="reason4" value="reason4"> I want to make a financial contribution to the program</input><br />
+            <input type="checkbox"> Other:</input><br />
+          <label for="message"></label>
             <input type="text" id="message" name="message"><br /><br />
           <input class="btn btn-primary submit" type="submit" name="submit" value="Submit"></input>
         </form>
@@ -72,7 +81,7 @@
         </div>
       </div>
 
-      <!-- 
+      <!--
       <form action="mail_handler.php" method="post">
         First Name: <input type="text" name="first_name"><br>
         Last Name: <input type="text" name="last_name"><br>

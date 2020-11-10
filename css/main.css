@@ -382,26 +382,34 @@ div.apply-btn button:hover {
 
 
 /* Contact Form */
+form {
+  margin: auto;
+}
+
 .contact-form {
   border: 2px solid #2a2a6a;
   padding: 2%;
-  text-align: center;
-  margin: auto;
   width: 75%;
   margin-bottom: 3%;
 }
 
 #name, #phone, #email, #message {
   border: 2px solid #2a2a6a;
-  width: 75%;
+  width: 100%;
 }
 
 #message {
-  height: 200px;
+  height: 150px;
 }
 
-input#name, input#phone, input#email {
+input#name, input#phone, input#email, input#method {
   margin-bottom: 5%;
+}
+
+input.btn.btn-primary.submit {
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
 }
 
 div.apply-link {
@@ -601,17 +609,12 @@ footer {
     padding: 2.5%;
   }
 
-  #name, #phone, #email, #message {
+  #phone, #email {
     width: 50%;
   }
 
   .contact-form {
-    text-align: left;
-  }
-
-  button.btn.btn-primary.submit {
-    margin: auto;
-    text-align: center;
+    width: 70%;
   }
 
   .apply-link {
@@ -675,7 +678,7 @@ footer {
   .btn-homepage {
     text-align: center;
     padding-bottom: 3%;
-  }  
+  }
 }
 
 
@@ -767,6 +770,10 @@ footer {
   .mentor-img:hover {
     width: 250px;
     height: 250px;
+  }
+
+  .contact-form {
+    width: 60%;
   }
 
   .address {
