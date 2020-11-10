@@ -212,6 +212,10 @@ p.home-paragraph {
   text-align: center;
 }
 
+.block:hover a {
+  color: #ffe873;
+}
+
 .about-block {
   background-color: #3b9bfd;
   background-image: url('../images/about.jpg');
@@ -238,20 +242,6 @@ p.home-paragraph {
 
 .block h1 a {
   color: white;
-}
-
-.four-boxes {
-  text-align: center;
-  margin-top: 2%;
-  padding: 2%;
-}
-
-.four-boxes a {
-  color: white;
-}
-
-.four-boxes a:hover {
-  color: #2a2a6a;
 }
 
 .recent-events {
@@ -550,23 +540,6 @@ footer {
   nav {
     text-align: center;
     background-color: #3b9bfd;
-  }
-
-  .four-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    border: 3px solid #ffe873;
-
-  }
-
-  .four-boxes div {
-    width: 50%;
-    margin: auto;
-    padding: 5%;
-  }
-
-  .four-boxes h1 {
-    font-size: 3rem;
   }
 
   .testimonial {
