@@ -464,6 +464,12 @@ footer {
   .btn-homepage {
     padding-bottom: 6%;
   }
+
+  .testimonials-section h1 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 2.25rem;
+  }
 }
 
 @media (min-width: 500px) {
@@ -685,6 +691,15 @@ footer {
   .btn-homepage {
     padding-bottom: 2%;
   }
+
+  .testimonials-section h1 {
+    margin-top: 1%;
+    font-size: 2.25rem;
+  }
+
+  .testimonials-carousel {
+    padding: 1% 4% 5% 4%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -715,6 +730,10 @@ footer {
   .testimonials p {
     padding: 4%;
     font-size: 1.025rem;
+  }
+
+  .testimonials-carousel {
+    padding: 0% 11% 1% 11%;
   }
 }
 
@@ -747,6 +766,15 @@ footer {
 
   .testimonials p {
     font-size: 1.25rem;
+  }
+
+  .testimonials-section h1 {
+    margin-top: 0;
+    font-size: 2.7rem;
+  }
+
+  .testimonials-carousel {
+    padding: 0% 4% 1% 4%;
   }
 
   .member-img:hover {
@@ -795,7 +823,7 @@ footer {
 
   .testimonials-carousel {
     background-color: #ffe873;
-    padding: 4% 4% 3% 4%;
+    padding: 0%;
     width: 100%;
   }
 
