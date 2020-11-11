@@ -100,6 +100,10 @@ a:hover {
   background-color: #252525;
 }
 
+.btn-secondary a {
+  color: white;
+}
+
 .btn-secondary:hover {
   background-color: #2a2a6a;
 }
