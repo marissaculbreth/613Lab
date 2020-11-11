@@ -261,8 +261,13 @@ p.home-paragraph {
 
 .testimonials-carousel {
   background-color: #ffe873;
-  padding: 4% 4% 10% 4%;
+  padding: 4% 6% 10% 6%;
   width: 100%;
+}
+
+.testimonials-group {
+  background-color: #ffe873;
+  padding-top: 3%;
 }
 
 .testimonials-section h1 {
