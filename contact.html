@@ -56,57 +56,25 @@
       <div class="col-sm-12">
         <h1>Contact Us</h1>
         <p>If you’re ready to <a href="apply.html">apply to 613 Lab</a> or have any questions about the program, we are happy to answer them and provide you with the information you need. Please fill out the form below and someone from our team will contact you within 48 hours.</p>
-        <form class="contact-form" action="mail_handler.php" method="post">
-          <label for="name">Your Name</label><br />
-            <input type="text" id="name" name="name"><br />
-          <div class="number">
-            <label for="phone">Phone Number</label><br />
-              <input type="text" id="phone" name="phone"><br />
-          </div>
-          <label for="email" id="emaillabel">Email</label><br />
-            <input type="text" id="email" name="email"><br />
-          <label for="method-of-contact">Preferred Method of Contact</label><br />
-            <input type="radio" id="method" name="method"> Phone</input><br />
-            <input type="radio" id="method" name="method"> Email</input><br />
-          <label for="reasons">Reason(s) for Reaching Out:<br />
-            <input type="checkbox" id="checkbox" name="reason1" value="reason1"> I want to learn more about joining the business accelerator program</input><br />
-            <input type="checkbox" id="checkbox" name="reason2" value="reason2"> I have a question about the program application</input><br />
-            <input type="checkbox" id="checkbox" name="reason3" value="reason3"> I want to learn more about becoming a mentor or advisor</input><br />
-            <input type="checkbox" id="checkbox" name="reason4" value="reason4"> I want to make a financial contribution to the program</input><br />
-            <input type="checkbox"> Other:</input><br />
-          <label for="message"></label>
-            <input type="text" id="message" name="message"><br /><br />
-          <input class="btn btn-primary submit" type="submit" name="submit" value="Submit"></input>
-        </form>
-        <div class="apply-link">
-          <a class="apply-link" href="apply.html">Go to Application Page >></a>
-        </div>
-      </div>
-
-
-
-
-
-
-      <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+         <form id="fcf-form-id" class="fcf-form-class contact-form" method="post" action="contact-form-process.php">
         
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your Name</label>
-            <div class="fcf-input-group">
+            <div class="fcf-input-group" id="name">
                 <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
         </div>
 
         <div class="fcf-form-group">
           <label for="Phone" class="fcf-label">Your Phone Number</label>
-          <div class="fcf-input-group">
+          <div class="fcf-input-group" id="phone">
               <input type="phone" id="Phone" name="Phone" class="fcf-form-control" required>
           </div>
       </div>
 
         <div class="fcf-form-group">
             <label for="Email" class="fcf-label">Your Email Address</label>
-            <div class="fcf-input-group">
+            <div class="fcf-input-group" id="email">
                 <input type="email" id="Email" name="Email" class="fcf-form-control" required>
             </div>
         </div>
@@ -121,7 +89,7 @@
         <input type="checkbox" id="checkbox" name="Reason[]" value="I want to make a financial contribution to the program"> I want to make a financial contribution to the program</input><br />
         <input type="checkbox" id="checkbox" name="Reason[]" value="Other"> Other</input><br />
 
-        <div class="fcf-form-group">
+        <div class="fcf-form-group" id="input-box">
             <label for="Message" class="fcf-label">Your message</label>
             <div class="fcf-input-group">
                 <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
@@ -129,11 +97,10 @@
         </div>
 
         <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block btn btn-primary submit">Submit</button>
         </div>
-
-
     </form>
+    
 
       <!--
       <form action="mail_handler.php" method="post">
@@ -146,6 +113,9 @@
       -->
 
     </main>
+    <div class="apply-link">
+      <a class="apply-link" href="apply.html">Go to Application Page >></a>
+    </div>
 
     <footer>
       <div class="col-sm-4 address">

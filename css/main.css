@@ -402,8 +402,8 @@ form {
   margin-bottom: 3%;
 }
 
-#name, #phone, #email, #message {
-  border: 2px solid #2a2a6a;
+#name, #phone, #email, #Message {
+  border: 1px solid #2a2a6a;
   width: 100%;
 }
 
