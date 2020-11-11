@@ -4,6 +4,16 @@
   border: 0;
 }
 
+/* Gotham Book Font */
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+      url('../fonts/Gotham-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Page Transition CSS Code */
 html {
   animation: fadeSiteIn 1s ease forwards; /* [1] */
@@ -92,6 +102,10 @@ a:hover {
 
 .btn-secondary:hover {
   background-color: #2a2a6a;
+}
+
+p {
+  font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
 }
 
 /* navigation */
@@ -196,6 +210,7 @@ h1.home-header {
 }
 
 p.home-paragraph {
+  font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
   padding: 4% 4% 0 4%;
 }
 
@@ -256,7 +271,7 @@ p.home-paragraph {
 }
 
 .testimonials p {
-  font-weight: bold;
+  font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
 }
 
 
