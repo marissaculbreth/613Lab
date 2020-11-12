@@ -276,6 +276,14 @@ p.home-paragraph {
   font-size: 2rem;
 }
 
+.homepage-content {
+  margin-top: -6px;
+}
+
+.home-blurb {
+  margin-top: -6px;
+}
+
 .testimonials-carousel {
   background-color: #ffe873;
   padding: 4% 6% 10% 6%;
@@ -610,6 +618,14 @@ footer {
 
   p.home-paragraph {
     padding: 2% 4% 0 4%;
+  }
+
+  .homepage-content {
+    margin-top: 0px;
+  }
+
+  .home-blurb {
+    margin-top: 0px;
   }
 
   h1 {
