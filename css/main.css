@@ -235,6 +235,14 @@ p.home-paragraph {
   padding-bottom: 10%;
 }
 
+div.btn-homepage button:hover {
+  background-color: #ffe873;
+}
+
+div.btn-homepage button a:hover {
+  color: #252525;
+}
+
 .block {
   margin: auto;
   margin-bottom: 4%;
