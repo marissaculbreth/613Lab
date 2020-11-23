@@ -176,7 +176,7 @@ p {
   text-align: center;
 	width: 100%;
 	height: 0px;
-	background-color:white;
+	background-color: #ffe873;
   opacity: 0;
   transition: all 0.3s;
 }
@@ -186,6 +186,7 @@ p {
 .menu a{
   text-decoration: none;
   color: #3b9bfd;
+  font-size: 1.25rem;
 }
 
 .clicked .ham_line1 {
