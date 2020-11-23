@@ -20,14 +20,14 @@ html {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 html.fadeSiteOut {
@@ -526,6 +526,10 @@ footer {
   color: white;
   padding-top: 4%;
   font-size: 0.8rem;
+}
+
+a.footer-email:hover {
+  color: #ffe873;
 }
 
 .footerlogo {
