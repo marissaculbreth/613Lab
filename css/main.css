@@ -221,7 +221,7 @@ p {
 }
 .video-hero {
   padding: calc(10% + 18px) 0;
-  background: #444 url(https://c.radikal.ru/c06/1809/60/ed3ac1815a4b.png);
+  background: #444;
   position: relative;
 }
 
@@ -313,6 +313,95 @@ div.btn-homepage button a:hover {
 .home-blurb {
   margin-top: -6px;
 }
+
+
+.testimonial-block {
+  background-color: #ffe873;
+  width: 100%;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 9% 0 0 0;
+}
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 10%;
+}
+.carousel .item {
+	color: #252525;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 150px;
+    font-family: 'Gotham Book', Arial, Helvetica, sans-serif;
+}
+
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 10px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #0057a6;
+}
+.carousel .carousel-control {
+	width: 5px;
+    height: 40px;
+    margin-top: -130px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 30px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: 40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
 
 .testimonials-carousel {
   background-color: #ffe873;
@@ -603,11 +692,11 @@ a.footer-email:hover {
     padding-bottom: 6%;
   }
 
-  .testimonials-section h1 {
-    margin-top: 3%;
+  .testimonials {
     text-align: center;
-    font-size: 2.25rem;
+    padding: 6% 0 0 0;
   }
+
 }
 
 @media (min-width: 500px) {
@@ -750,8 +839,12 @@ a.footer-email:hover {
   }
 
   .testimonials {
-    display: flex;
-    width: 100%;
+    text-align: center;
+    padding: 6% 0 0 0;
+  }
+
+  .carousel .testimonial {
+    padding: 18px 0 10px;
   }
 
   .members-section {
@@ -976,10 +1069,24 @@ a.footer-email:hover {
     padding: 2% 13% 0 13%;
   }
 
+  .testimonials {
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 3% 0 0 0;
+  }
+
+  .carousel .testimonial {
+    padding: 18px 0 10px;
+  }
+
   .testimonials-carousel {
     background-color: #ffe873;
     padding: 0%;
     width: 100%;
+  }
+
+  .carousel .item {
+      min-height: 120px;
   }
 
   iframe {
