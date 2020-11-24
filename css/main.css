@@ -216,6 +216,27 @@ p {
 
 
 /* Home page */
+.hero {
+  overflow: hidden;
+}
+.video-hero {
+  padding: calc(10% + 18px) 0;
+  background: #444 url(https://c.radikal.ru/c06/1809/60/ed3ac1815a4b.png);
+  position: relative;
+}
+
+/* VIDEO */
+.video-hero .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+
 
 h1.home-header {
   background-color: #2a2a6a;
@@ -286,7 +307,7 @@ div.btn-homepage button a:hover {
 }
 
 .homepage-content {
-  margin-top: -6px;
+  margin-top: -16px;
 }
 
 .home-blurb {
@@ -595,6 +616,14 @@ a.footer-email:hover {
   }
 }
 
+@media (min-width: 517px) {
+  .video-hero {
+    padding: calc(10% + 30px) 0;
+    background: #444 url(https://c.radikal.ru/c06/1809/60/ed3ac1815a4b.png);
+    position: relative;
+  }
+}
+
 @media (min-width: 575px) {
   .btn-homepage {
     padding-bottom: 3%;
@@ -649,7 +678,7 @@ a.footer-email:hover {
   }
 
   .homepage-content {
-    margin-top: 0px;
+    margin-top: -20px;
   }
 
   .home-blurb {
@@ -861,6 +890,7 @@ a.footer-email:hover {
     padding: 0% 11% 1% 11%;
   }
 }
+  
 
 
 @media (min-width: 850px) {
