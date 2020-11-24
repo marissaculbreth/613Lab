@@ -366,7 +366,7 @@ div.btn-homepage button a:hover {
 	color: #0057a6;
 }
 .carousel .carousel-control {
-	width: 5px;
+	width: 40px;
     height: 40px;
     margin-top: -130px;
     top: 50%;
@@ -682,6 +682,16 @@ a.footer-email:hover {
 
 .social-media-links {
   margin-top: 5%;
+}
+
+@media (min-width: 473px) {
+  .carousel .carousel-control {
+    width: 30px;
+      height: 190px;
+      margin-top: -130px;
+      top: 50%;
+    background: none;
+  }
 }
 
 
@@ -1011,6 +1021,14 @@ a.footer-email:hover {
   .home-blurb {
     font-size: 1.25rem;
   }
+
+    .carousel .carousel-control {
+      width: 70px;
+        height: 190px;
+        margin-top: -130px;
+        top: 50%;
+      background: none;
+    }
 
   .testimonials p {
     font-size: 1.25rem;
