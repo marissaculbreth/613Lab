@@ -1039,8 +1039,7 @@ a.footer-email:hover {
   }
 
   .mentor-img:hover {
-    width: 200px;
-    height: 200px;
+    width: 25%;
     transition: 2s;
   }
 
