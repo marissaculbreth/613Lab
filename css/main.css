@@ -628,7 +628,7 @@ form {
   height: 150px;
 }
 
-input#name, input#phone, input#email, input#method {
+input#name, input#phone, input#email, input#method, input#method2 {
   margin-bottom: 5%;
 }
 
