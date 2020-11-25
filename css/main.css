@@ -1035,11 +1035,13 @@ a.footer-email:hover {
 
   .member-img:hover {
     width: 55%;
+    transition: 2s;
   }
 
   .mentor-img:hover {
     width: 200px;
     height: 200px;
+    transition: 2s;
   }
 
   .about-btn button, .services-btn button {
