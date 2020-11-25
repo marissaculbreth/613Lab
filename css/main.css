@@ -78,6 +78,10 @@ h1 {
   font-size: 2rem;
 }
 
+h2.home-block {
+  font-family: 'Bebas Neue', cursive;
+}
+
 a {
   color: #3b9bfd;
 }
@@ -295,7 +299,7 @@ div.btn-homepage button a:hover {
   background-size: cover;
 }
 
-.block h1 a {
+.block h2 a {
   color: white;
   font-size: 2rem;
 }
@@ -704,7 +708,7 @@ a.footer-email:hover {
 }
 
 @media (min-width: 500px) {
-  .block h1 a {
+  .block h2 a {
     font-size: 3rem;
   }
 }
@@ -735,7 +739,7 @@ a.footer-email:hover {
     justify-content: center;
   }
 
-  .block h1 a {
+  .block h2 a {
     font-size: 2rem;
   }
 
