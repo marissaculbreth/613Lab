@@ -95,10 +95,12 @@ a:hover {
   background-color: #ffe873;
   color: #2a2a6a;
   border: none;
+  padding: 5%;
 }
 
-.btn-primary a {
+a.btn-primary {
   color: #2a2a6a;
+  font-size: 1.125rem;
 }
 
 .btn-primary:hover {
@@ -110,7 +112,7 @@ a:hover {
   background-color: #252525;
 }
 
-.btn-secondary a {
+a.btn-secondary {
   color: white;
 }
 
@@ -793,7 +795,7 @@ a.footer-email:hover {
   .cta-button {
     display: block;
     float: right;
-    margin-top: 5%;
+    margin-top: 4%;
   }
 
   .cta-button a:hover {
