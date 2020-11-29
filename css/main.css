@@ -95,7 +95,6 @@ a:hover {
   background-color: #ffe873;
   color: #2a2a6a;
   border: none;
-  padding: 5%;
 }
 
 a.btn-primary {
@@ -494,7 +493,7 @@ a.about-btn:hover {
   color: white;
 }
 
-button.btn.btn-primary:hover {
+a.btn.btn-primary:hover {
   color: white;
 }
 
@@ -510,9 +509,23 @@ div.services:hover {
   color: white;
 }
 
-.services-btn {
+a.services-btn {
+  display: block;
+  margin: auto;
   text-align: center;
   margin-top: 3%;
+  background-color: #ffe873;
+  color: #252525;
+  border: 2px solid #252525;
+  margin-bottom: 3%;
+  width: 50%;
+  padding: 3%;
+  font-size: 1.05rem;
+}
+
+a.services-btn:hover {
+  background-color: #252525;
+  color: white;
 }
 
 
@@ -604,7 +617,7 @@ input:checked ~ .tab-content {
   text-align: center;
 }
 
-div.apply-btn button:hover {
+div.apply-btn a:hover {
   background-color: #2a2a6a;
   border: 1px solid #ffe873;
 }
@@ -760,6 +773,10 @@ a.footer-email:hover {
   a.about-btn {
     width: 50%;
   }
+
+  a.services-btn {
+    width: 40%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -884,7 +901,7 @@ a.footer-email:hover {
     width: 75%;
   }
 
-  .about-btn, .services-btn button {
+  .about-btn, a.services-btn {
     font-size: 1.025rem;
     padding: 2.5%;
   }
@@ -1066,14 +1083,18 @@ a.footer-email:hover {
     transition: 2s;
   }
 
-  .about-btn, .services-btn button {
-    font-size: 1.25rem;
-    padding: 1.75%;
+  a.about-btn {
+    padding: 1.5%;
+    font-size: 1.075rem;
+    width: 25%;
+    margin-top: 3%;
   }
 
-  a.about-btn {
+  a.services-btn {
     width: 33%;
     margin-top: 3%;
+    padding: 2%;
+    font-size: 1.05rem;
   }
 
   .footerlogo {
@@ -1128,6 +1149,8 @@ a.footer-email:hover {
 
   a.about-button {
     width: 15%;
+    padding: 1.075%;
+    font-size: 1.05rem;
   }
 
   .mentor-img {
