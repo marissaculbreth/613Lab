@@ -253,7 +253,7 @@ p.home-paragraph {
 
 .btn-homepage {
   text-align: center;
-  padding-bottom: 10%;
+  padding: 10%;
 }
 
 div.btn-homepage a:hover {
@@ -713,7 +713,7 @@ a.footer-email:hover {
 /* Media queries */
 @media (min-width: 496px) {
   .btn-homepage {
-    padding-bottom: 6%;
+    padding: 6%;
   }
 
   .testimonials {
@@ -739,7 +739,7 @@ a.footer-email:hover {
 
 @media (min-width: 575px) {
   .btn-homepage {
-    padding-bottom: 3%;
+    padding: 3%;
   }
 
   .block {
@@ -761,7 +761,7 @@ a.footer-email:hover {
 
   .btn-homepage {
     text-align: center;
-    padding-bottom: 5%;
+    padding: 5%;
   }
 
   .testimonials-carousel {
@@ -968,7 +968,7 @@ a.footer-email:hover {
 
 @media (min-width: 640px) {
   .btn-homepage {
-    padding-bottom: 2%;
+    padding: 2%;
   }
 
   .testimonials-section h1 {
@@ -1007,7 +1007,8 @@ a.footer-email:hover {
 
   .btn-homepage {
     text-align: center;
-    padding-bottom: 3%;
+    margin-top: -2%;
+
   }
 
   .testimonials p {
@@ -1125,6 +1126,10 @@ a.footer-email:hover {
 
   p.home-paragraph {
     padding: 2% 13% 0 13%;
+  }
+
+  .btn-homepage a {
+    font-size: 1.25rem;
   }
 
   .testimonials {
