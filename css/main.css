@@ -257,12 +257,9 @@ p.home-paragraph {
   padding-bottom: 10%;
 }
 
-div.btn-homepage button:hover {
-  background-color: #ffe873;
-}
-
-div.btn-homepage button a:hover {
+div.btn-homepage a:hover {
   color: #252525;
+  background-color: #ffe873;
 }
 
 .block {
@@ -430,18 +427,15 @@ div.btn-homepage button a:hover {
   font-size: 2.5rem;
 }
 
-button.about-button.btn.btn-secondary {
+a.about-button {
   display: block;
   margin: auto;
   margin-bottom: 3%;
+  width: 30%;
 }
 
-button.about-button:hover {
+a.about-button:hover {
   background-color: #ffe873;
-  color: #252525;
-}
-
-button.about-button a:hover {
   color: #252525;
 }
 
@@ -487,10 +481,6 @@ button.about-button a:hover {
 .about-btn {
   text-align: center;
   margin-top: 3%;
-}
-
-.about-btn button {
-  padding: 3%;
 }
 
 button.btn.btn-primary:hover {
@@ -853,6 +843,10 @@ a.footer-email:hover {
     padding: 18px 0 10px;
   }
 
+  a.about-button {
+    width: 25%;
+  }
+
   .members-section {
     display: flex;
     padding: 3%;
@@ -988,6 +982,10 @@ a.footer-email:hover {
   .testimonials-carousel {
     padding: 0% 11% 1% 11%;
   }
+
+  a.about-button {
+    width: 20%;
+  }
 }
 
 
@@ -1098,6 +1096,10 @@ a.footer-email:hover {
 
   .carousel .item {
       min-height: 120px;
+  }
+
+  a.about-button {
+    width: 15%;
   }
 
   .mentor-img {
